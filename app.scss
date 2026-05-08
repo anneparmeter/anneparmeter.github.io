@@ -5,7 +5,16 @@ body {
   background: ccc;
 }
 
-a, a:hover {
-  color: white;
-  text-decoration: none;
+.header {
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
+
+a { color: #ff6961; text-decoration: none }
+a:hover { text-decoration: underline }

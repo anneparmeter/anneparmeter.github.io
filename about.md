@@ -1,5 +1,12 @@
 ---
 layout: default
 ---
+# About
 
-# Here we gooooo, baby!
+lajdf;la dsjf; as;ldkfj adlsf aj;ldfj a;lsdfjas
+
+a;dslfkja;dlkfj
+
+- sohdodh
+- pg;k
+- asdfl
