@@ -24,13 +24,17 @@ These are the elements outlined in John Gruber’s original design document. All
 ## H2
 ### H3
 
+---
+
 ### Bold
 
 ```
 **bold text**
 ```
 
-**bold text**
+This is some **inline bold** text
+
+---
 
 ### Italic
 
@@ -38,15 +42,9 @@ These are the elements outlined in John Gruber’s original design document. All
 *italicized text*
 ```
 
-*italicized text*
+This is some *inline italicized* text
 
-### Blockquote
-
-```
-> blockquote
-```
-
-> blockquote
+---
 
 ### Ordered List
 
@@ -60,6 +58,8 @@ These are the elements outlined in John Gruber’s original design document. All
 2. Second item
 3. Third item
 
+---
+
 ### Unordered List
 
 ```
@@ -72,19 +72,29 @@ These are the elements outlined in John Gruber’s original design document. All
 - Second item
 - Third item
 
-### Code
+---
+
+### Footnote
 
 ```
-`code`
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
 ```
 
-This is some `inline code` right here
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+---
 
 ### Horizontal Rule
 
 ```
 ---
 ```
+
+The dividers between each section of this document are in-fact horizontal rules, so you can see what they look like and how the help lay things out. For example, that one right there 👇🏻
 
 ---
 
@@ -96,6 +106,8 @@ This is some `inline code` right here
 
 [Markdown Guide](https://www.markdownguide.org)
 
+---
+
 ### Image
 
 ```
@@ -104,9 +116,7 @@ This is some `inline code` right here
 
 ![alt text](https://www.markdownguide.org/assets/images/tux.png)
 
-## Extended Syntax
-
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+---
 
 ### Table
 
@@ -122,39 +132,26 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 | Header | Title |
 | Paragraph | Text |
 
+---
+
+### Code
+
+```
+`code`
+```
+
+This is some `inline code` right here
+
+---
 
 ### Fenced Code Block
 
-"```"
+Wrap code blocks in ``` (<- that is 3 back ticks) and you can have multi-line code.
+
+```
 {
   "firstName": "John",
   "lastName": "Smith",
   "age": 25
 }
-"```"
-
-### Footnote
-
-Here's a sentence with a footnote. [^1]
-
-[^1]: This is the footnote.
-
-### Task List
-
 ```
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-```
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-### Emoji
-
-```
-That is so funny! :joy:
-```
-
-That is so funny! :joy:

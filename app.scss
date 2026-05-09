@@ -2,7 +2,7 @@
 ---
 
 body {
-  background-color: #eee;
+  background-color: #f9f9f9;
   margin-bottom: 100px
 }
 
@@ -16,3 +16,26 @@ body {
 
 a { color: #ff6961 }
 a:hover { text-decoration: none }
+
+/* code {
+  background: #444;
+  color: #eee;
+  padding: 5px 8px;
+  border-radius: 5px;
+} */
+
+pre {
+  background: #444;
+  color: #eee;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 40px auto;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #ccc;
+  width: 95%;
+  margin: 40px auto;
+}
